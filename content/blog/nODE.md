@@ -195,7 +195,7 @@ While the back-propgation method was derived in the last section, the practical 
 
 ## Conclusion
 
-Neural ODEs are sometimes also referred to as liquid neural networks. This method offers a different approach to solving problems for which neural networks were useful for. This method was quite popular when it came out in 2018 (It was awarded the best paper in NeurIPS) and yet failed to see adoption in mainstream models. There can be various reasons why this might've happened, one being this models (like SSMs) are more suited for continuous datasets, and can model data better when the underlying generator of data is continuous in nature. This architecture can also be viewed as a subset of a larger <i>Physics-Informed<i> neural networks, and I am hoping to explore this topic more! Thank you.
+Neural ODEs are sometimes also referred to as liquid neural networks. This method offers a different approach to solving problems for which neural networks were useful for. This method was quite popular when it came out in 2018 (It was awarded the best paper in NeurIPS) and yet failed to see adoption in mainstream models. There can be various reasons why this might've happened, one being this models (like SSMs) are more suited for continuous datasets, and can model data better when the underlying generator of data is continuous in nature. This architecture can also be viewed as a subset of a larger <i>Physics-Informed</i> neural networks, and I am hoping to explore this topic more! Thank you.
 
 <p style="text-align: center;">
 <strong><a href='/'>Home</a></strong>
