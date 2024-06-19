@@ -110,7 +110,7 @@ Moving on, our main concern is knowing the dynamics of how the adjoint state cha
 
 <p>With this, we have officially back propagated through the entire network! Even if the proofs and derivations were straight forward, (and hopefully intuitive), it would still be tough to see how do we implement this in practice. There are more nuances to how we actually do it, and hence we shall go over a numerical example and precisely follow the process of forward and backward porpagation to get a complete and thorough understanding of the concept.</p>
 
-## Solving a Neural-ODE numerically
+<h2> Solving a Neural-ODE numerically</h2>
 
 <p>Though the above given equations might help in understanding how we can model a neural network using differential equations, it might not be enough to build up the intuition to understand the entire <i>pipeline</i> or how an input <i>flows</i> through the model, and subsequently how we back-propagate through the network to arrive at the gradients. In order to build  stronger foundation of Neural ODEs, I would go through a numerical example in order to fully grasp this concept.
 While the back-propgation method was derived in the last section, the practical implementation is handled a little differently (it could be said we build the theory in the last section, and here we apply it). Let us begin by defining our input, lets call it <i>y<sub>0</sub></i>, which is an <i>n</i>-dimensional vector.</p>
@@ -189,7 +189,7 @@ While the back-propgation method was derived in the last section, the practical 
 
 - Calculate the vector-jacobian products through the given adjoint equation. This equation gives us three adjoint dynamics, one with respect to the output/input, one with respect to our parameters used and one with respect to the time vector.
 
-- Call our ODE solver for the second time in order to calculate the desired derivatves, with respect to the input function (<i>y(t)<i>), our parameters (<i>θ(t)</i>) and the time vector (<i>t(t)</i>). (<i>dL/y(t)</i>, <i>dL/θ(t)</i>, <i>dL/t(t)</i>).
+- Call our ODE solver for the second time in order to calculate the desired derivatves, with respect to the input function (<i>y(t)</i>), our parameters (<i>θ(t)</i>) and the time vector (<i>t(t)</i>). (<i>dL/y(t)</i>, <i>dL/θ(t)</i>, <i>dL/t(t)</i>).
 
 - Update the weights and continue to iterate until desired loss function is achieved.
 
