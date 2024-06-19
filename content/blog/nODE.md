@@ -142,6 +142,7 @@ While the back-propgation method was derived in the last section, the practical 
 <p>Another important equation is the derivative of the *f<sub>aug</sub>* with respect to our augmented vector: </p>
 
 <math display="block" class="tml-display" style="display:block math;"><mrow><mfrac><mrow><mi>∂</mi><msub><mi>f</mi><mrow><mi>a</mi><mi>u</mi><mi>g</mi></mrow></msub></mrow><mrow><mi>∂</mi><mrow><mo fence="true" form="prefix">[</mo><mtable columnalign="center center center"><mtr><mtd style="padding-left:0em;"><mi>𝐲</mi></mtd><mtd><mi>𝛉</mi></mtd><mtd style="padding-right:0em;"><mi>𝐭</mi></mtd></mtr></mtable><mo fence="true" form="postfix">]</mo></mrow></mrow></mfrac><mo>=</mo><mrow><mo fence="true" form="prefix">[</mo><mtable columnalign="center center center"><mtr><mtd style="padding-left:0em;"><mfrac><mrow><mi>∂</mi><mi>f</mi></mrow><mrow><mi>∂</mi><mi>𝐲</mi></mrow></mfrac></mtd><mtd><mfrac><mrow><mi>∂</mi><mi>f</mi></mrow><mrow><mi>∂</mi><mi>𝛉</mi></mrow></mfrac></mtd><mtd style="padding-right:0em;"><mfrac><mrow><mi>∂</mi><mi>f</mi></mrow><mrow><mi>∂</mi><mi>𝐭</mi></mrow></mfrac></mtd></mtr><mtr><mtd style="padding-left:0em;"><mn>𝟎</mn></mtd><mtd><mn>𝟎</mn></mtd><mtd style="padding-right:0em;"><mn>𝟎</mn></mtd></mtr><mtr><mtd style="padding-left:0em;"><mn>𝟎</mn></mtd><mtd><mn>𝟎</mn></mtd><mtd style="padding-right:0em;"><mn>𝟎</mn></mtd></mtr></mtable><mo fence="true" form="postfix">]</mo></mrow></mrow></math>
+<br>
 
 <p>Going further, we simply get the derivative of the augmented adjoint state:</p>
 
