@@ -16,7 +16,6 @@ In all *deep* neural models, the process is very simple: initialise a hidden sta
 
 <math display="block" class="tml-display" style="display:block math;"><mrow><msub><mi>h</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><mi>f</mi><mo form="prefix" stretchy="false">(</mo><msub><mi>h</mi><mi>t</mi></msub><mo separator="true">,</mo><mtext> </mtext><msub><mi>θ</mi><mi>t</mi></msub><mo form="postfix" stretchy="false">)</mo></mrow></math>
 <br>
-<br>
 
 <p>We are missing an important (and quite a revolutionary) step here: the addition of the input back to the output. This was formerly introduced in the case of ResNets, to tackle previous problems and to better the model quality: and it worked like magic. So we add an input at the end of the forward pass to better improve the model. Why stop there, why not add the input after every block, every *layer* ? So here we are:</p>
 
