@@ -1,5 +1,5 @@
 ---
-title: MathBlog
+title: Model Math
 description: none
 ---
 
