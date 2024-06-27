@@ -93,6 +93,9 @@
   .blogTitle {
     text-align: left;
   }
+  .desc {
+    width: 30%;
+  }
   .post{
     margin-bottom: 1.8rem;
   }
