@@ -1,5 +1,5 @@
 ---
 title: Model Math
-description: none
+description:
 ---
 
