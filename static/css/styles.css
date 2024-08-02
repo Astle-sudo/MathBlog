@@ -168,3 +168,9 @@
     position: absolute;
     bottom: 0px;
   }
+
+
+math{
+    max-width: 100%;
+    overflow: auto;
+  }
