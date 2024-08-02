@@ -168,9 +168,3 @@
     position: absolute;
     bottom: 0px;
   }
-  @media only screen and (max-width: 600px) {
-    .blog-text {
-      width: 700px;
-    }
-  }
- 
